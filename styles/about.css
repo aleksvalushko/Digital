@@ -1,0 +1,93 @@
+@font-face {
+  font-family: "Lato Heavy";
+  src: url(../fonts/Lato-Heavy.ttf); }
+@font-face {
+  font-family: "Lato Bold";
+  src: url(../fonts/Lato-Bold.ttf); }
+@font-face {
+  font-family: Bernadette;
+  src: url(../fonts/bernadette.ttf); }
+@font-face {
+  font-family: "Lato Light";
+  src: url(../fonts/Lato-Light.ttf); }
+@font-face {
+  font-family: "Belgrad Bold";
+  src: url(../fonts/Belgrad.ttf); }
+@font-face {
+  font-family: "Berlin Sans FB Demi";
+  src: url(../fonts/BRLNSDB.ttf); }
+@font-face {
+  font-family: "Lato Italic";
+  src: url(../fonts/Lato-Italic.ttf); }
+@font-face {
+  font-family: "Lato Medium";
+  src: url(../fonts/Lato-Medium.ttf); }
+@font-face {
+  font-family: "Lato Black";
+  src: url(../fonts/Lato-Black.ttf); }
+@font-face {
+  font-family: "Myriad Pro Cond";
+  src: url(../fonts/Myriad-Pro-Cond.ttf); }
+.about {
+  display: grid;
+  grid-template-columns: 32.5% 35% 32.5%;
+  margin: 20% 16% 4%;
+  height: 40vw; }
+  .about__description {
+    padding-top: 15%; }
+  .about__headline-h1-1 {
+    font-family: Bernadette;
+    font-size: 3vw;
+    padding-bottom: 8%; }
+  .about__paragraf-1 {
+    line-height: 1.3;
+    font-family: "Lato Light";
+    font-size: 1.3vw; }
+    .about__paragraf-1 span {
+      font-weight: bold; }
+  .about button {
+    position: relative;
+    background: linear-gradient(90deg, #dc803d, #415299);
+    color: #fff;
+    border: none;
+    font-family: "Lato Bold";
+    font-size: 1.15vw;
+    border-radius: 25px;
+    padding: 2% 3%;
+    cursor: pointer;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.3);
+    top: 1.15vw;
+    margin-top: 5%; }
+  .about__letter {
+    font-size: 40vw;
+    font-family: "Belgrad Bold";
+    background: url(../images/a-image.jpg);
+    background-size: cover; }
+  .about__headline-h1-2 {
+    color: #000;
+    background: #fff;
+    mix-blend-mode: lighten;
+    text-align: right;
+    text-shadow: black; }
+    .about__headline-h1-2 span {
+      position: relative;
+      right: 16vw;
+      top: 4vw;
+      color: #000;
+      font-family: "Berlin Sans FB Demi";
+      font-size: 17vw;
+      vertical-align: top; }
+  .about__quote {
+    padding-top: 30%; }
+  .about__paragraf-2 {
+    font-family: "Lato Italic";
+    font-size: 1.4vw;
+    line-height: 1.5;
+    font-weight: bold; }
+  .about__headline-h1-3 {
+    font-family: Bernadette;
+    font-size: 3.5vw;
+    padding-left: 15%;
+    padding-top: 7%; }
+
+/*# sourceMappingURL=about.css.map */

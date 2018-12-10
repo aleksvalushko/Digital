@@ -1,0 +1,89 @@
+@import "variables"
+
+.progress
+  display: grid
+  grid-template-columns: 45% 25% 30%
+  margin-left: 16%
+  margin-bottom: 7%
+  height: 35vw
+  &__skills
+    padding: 5% 10%
+  &__headline-h1
+    font-family: Bernadette
+    font-size: 4vw
+    color: #333332
+  &__headline-h4
+    font-family: "Lato Bold"
+    font-size: 1.5vw
+    color: #515151
+    padding-bottom: 4%
+  &__paragraf-1
+    font-family: "Lato Light"
+    font-size: 1.2vw
+    line-height: 1.5
+    padding-bottom: 15%
+  &__headline-h5
+    font-family: "Lato Medium"
+    font-size: 1.6vw
+    color: #333332
+  &__scale
+    display: flex
+    flex-direction: row
+    align-items: baseline
+  &__scale-1
+    flex: 7
+    order: 1
+    background: $gradient90
+    border: 1px solid transparent
+    border-radius: 15px
+    height: 0.5vw
+  &__value
+    flex: 1
+    order: 2
+    text-align: right
+    color: #4c4c4b
+    font-family: "Lato Black"
+    font-size: 1.5vw
+  &__scale-2
+    background: #dadada
+    border: 1px solid #dadada
+    border-radius: 15px
+    height: 0.5vw
+  &__photo
+    max-width: 100%
+    background: $gradient120
+    img
+      max-width: 100%
+  &__social-networks
+    padding: 5% 10%
+    background: $gradient120
+  &__paragraf-2
+    font-family: "Lato Light"
+    font-size: 1.2vw
+    color: #fff
+    line-height: 1.5
+    span
+      font-family: "Lato Medium"
+  &__social-network
+    display: flex
+    flex-direction: row
+    justify-content: space-between
+    align-items: flex-end
+    padding: 5% 10%
+    .shape
+      background-color: #fff
+      width: 4vw
+      height: 4vw
+      border-radius: 4vw
+      margin-top: 17.7vw
+  &__facebook
+    background: url(../images/facebook.png) no-repeat 50% 50%
+    background-size:  40%
+  &__google
+    background: url(../images/google.png) no-repeat 50% 50%
+    background-size:  80%
+  &__vk
+    background: url(../images/vk.png) no-repeat 50% 50%
+    background-size:  80%
+
+

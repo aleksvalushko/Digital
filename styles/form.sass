@@ -1,0 +1,33 @@
+@import "variables"
+
+.main-form
+  background: $gradient90
+  text-align: center
+  padding: 5% 26%
+  &__information
+    max-width: 100%
+    display: grid
+    grid-template-columns: 48% 48%
+    grid-column-gap: 4%
+    justify-content: space-around
+    margin-bottom: 3%
+  &__data
+    margin-bottom: 3%
+    input
+      width: 100%
+      border: 1px solid #fc9e20
+      border-radius: 3px
+      background: #f4f4f4
+      height: 2vw
+  &__message
+    textarea
+      width: 100%
+      border: 1px solid #fc9e20
+      border-radius: 3px
+      background: #f4f4f4
+      height: 8vw
+      margin-bottom: 3%
+  &__submit
+    input
+      @include gradient-button
+      padding: 1% 5%

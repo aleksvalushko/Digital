@@ -1,0 +1,117 @@
+@font-face {
+  font-family: "Lato Heavy";
+  src: url(../fonts/Lato-Heavy.ttf); }
+@font-face {
+  font-family: "Lato Bold";
+  src: url(../fonts/Lato-Bold.ttf); }
+@font-face {
+  font-family: Bernadette;
+  src: url(../fonts/bernadette.ttf); }
+@font-face {
+  font-family: "Lato Light";
+  src: url(../fonts/Lato-Light.ttf); }
+@font-face {
+  font-family: "Belgrad Bold";
+  src: url(../fonts/Belgrad.ttf); }
+@font-face {
+  font-family: "Berlin Sans FB Demi";
+  src: url(../fonts/BRLNSDB.ttf); }
+@font-face {
+  font-family: "Lato Italic";
+  src: url(../fonts/Lato-Italic.ttf); }
+@font-face {
+  font-family: "Lato Medium";
+  src: url(../fonts/Lato-Medium.ttf); }
+@font-face {
+  font-family: "Lato Black";
+  src: url(../fonts/Lato-Black.ttf); }
+@font-face {
+  font-family: "Myriad Pro Cond";
+  src: url(../fonts/Myriad-Pro-Cond.ttf); }
+.progress {
+  display: grid;
+  grid-template-columns: 45% 25% 30%;
+  margin-left: 16%;
+  margin-bottom: 7%;
+  height: 35vw; }
+  .progress__skills {
+    padding: 5% 10%; }
+  .progress__headline-h1 {
+    font-family: Bernadette;
+    font-size: 4vw;
+    color: #333332; }
+  .progress__headline-h4 {
+    font-family: "Lato Bold";
+    font-size: 1.5vw;
+    color: #515151;
+    padding-bottom: 4%; }
+  .progress__paragraf-1 {
+    font-family: "Lato Light";
+    font-size: 1.2vw;
+    line-height: 1.5;
+    padding-bottom: 15%; }
+  .progress__headline-h5 {
+    font-family: "Lato Medium";
+    font-size: 1.6vw;
+    color: #333332; }
+  .progress__scale {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline; }
+  .progress__scale-1 {
+    flex: 7;
+    order: 1;
+    background: linear-gradient(90deg, #dc803d, #415299);
+    border: 1px solid transparent;
+    border-radius: 15px;
+    height: 0.5vw; }
+  .progress__value {
+    flex: 1;
+    order: 2;
+    text-align: right;
+    color: #4c4c4b;
+    font-family: "Lato Black";
+    font-size: 1.5vw; }
+  .progress__scale-2 {
+    background: #dadada;
+    border: 1px solid #dadada;
+    border-radius: 15px;
+    height: 0.5vw; }
+  .progress__photo {
+    max-width: 100%;
+    background: linear-gradient(120deg, #dc803d, #415299); }
+    .progress__photo img {
+      max-width: 100%; }
+  .progress__social-networks {
+    padding: 5% 10%;
+    background: linear-gradient(120deg, #dc803d, #415299); }
+  .progress__paragraf-2 {
+    font-family: "Lato Light";
+    font-size: 1.2vw;
+    color: #fff;
+    line-height: 1.5; }
+    .progress__paragraf-2 span {
+      font-family: "Lato Medium"; }
+  .progress__social-network {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 5% 10%; }
+    .progress__social-network .shape {
+      background-color: #fff;
+      width: 4vw;
+      height: 4vw;
+      border-radius: 4vw;
+      margin-top: 17.7vw; }
+  .progress__facebook {
+    background: url(../images/facebook.png) no-repeat 50% 50%;
+    background-size: 40%; }
+  .progress__google {
+    background: url(../images/google.png) no-repeat 50% 50%;
+    background-size: 80%; }
+  .progress__vk {
+    background: url(../images/vk.png) no-repeat 50% 50%;
+    background-size: 80%; }
+
+/*# sourceMappingURL=progress.css.map */

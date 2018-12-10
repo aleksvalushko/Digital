@@ -1,0 +1,89 @@
+.bg-digg_white {
+    width: 43px; height: 26px;
+    background: url('css_sprites.png') -379px -396px;
+}
+
+.bg-facebook {
+    width: 19px; height: 35px;
+    background: url('css_sprites.png') -723px -215px;
+}
+
+.bg-facebook_white {
+    width: 19px; height: 35px;
+    background: url('css_sprites.png') -723px -370px;
+}
+
+.bg-google {
+    width: 43px; height: 28px;
+    background: url('css_sprites.png') -216px -396px;
+}
+
+.bg-icon_1 {
+    width: 40px; height: 46px;
+    background: url('css_sprites.png') -401px -225px;
+}
+
+.bg-icon_2 {
+    width: 46px; height: 45px;
+    background: url('css_sprites.png') -401px -60px;
+}
+
+.bg-google_white {
+    width: 47px; height: 31px;
+    background: url('css_sprites.png') -234px -234px;
+}
+
+.bg-icon_3 {
+    width: 49px; height: 54px;
+    background: url('css_sprites.png') -232px -60px;
+}
+
+.bg-icon_4 {
+    width: 36px; height: 35px;
+    background: url('css_sprites.png') -60px -396px;
+}
+
+.bg-icon_5 {
+    width: 36px; height: 42px;
+    background: url('css_sprites.png') -567px -234px;
+}
+
+.bg-icon_email {
+    width: 54px; height: 42px;
+    background: url('css_sprites.png') -60px -234px;
+}
+
+.bg-icon_phone {
+    width: 36px; height: 54px;
+        background: url('css_sprites.png') -567px -60px;
+}
+
+.bg-icon_address {
+    width: 52px; height: 54px;
+    background: url('css_sprites.png') -60px -60px;
+}
+
+.bg-in_white {
+    width: 32px; height: 31px;
+    background: url('css_sprites.png') -211px -551px;
+}
+
+.bg-vk {
+    width: 39px; height: 23px;
+    background: url('css_sprites.png') -542px -396px;
+}
+
+.bg-vk_white {
+    width: 39px; height: 23px;
+    background: url('css_sprites.png') -363px -551px;
+}
+
+.bg-youtoobe_white {
+    width: 31px; height: 37px;
+    background: url('css_sprites.png') -60px -551px;
+}
+
+.bg-z_white {
+    width: 21px; height: 35px;
+    background: url('css_sprites.png') -723px -60px;
+}

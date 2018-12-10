@@ -1,0 +1,54 @@
+@import "variables"
+
+.about
+  display: grid
+  grid-template-columns: 32.5% 35% 32.5%
+  margin: 20% 16% 4%
+  height: 40vw
+  &__description
+    padding-top: 15%
+  &__headline-h1-1
+    font-family: Bernadette
+    font-size: 3vw
+    padding-bottom: 8%
+  &__paragraf-1
+    line-height: 1.3
+    font-family: "Lato Light"
+    font-size: 1.3vw
+    span
+      font-weight: bold
+  button
+    @include gradient-button
+    top: 1.15vw
+    margin-top: 5%
+  &__letter
+    font-size: 40vw
+    font-family: "Belgrad Bold"
+    background: url(../images/a-image.jpg)
+    background-size: cover
+  &__headline-h1-2
+    color: #000
+    background: #fff
+    mix-blend-mode: lighten
+    text-align: right
+    text-shadow: black
+    span
+      position: relative
+      right: 16vw
+      top: 4vw
+      color: #000
+      font-family: "Berlin Sans FB Demi"
+      font-size: 17vw
+      vertical-align: top
+  &__quote
+    padding-top: 30%
+  &__paragraf-2
+    font-family: "Lato Italic"
+    font-size: 1.4vw
+    line-height: 1.5
+    font-weight: bold
+  &__headline-h1-3
+    font-family: Bernadette
+    font-size: 3.5vw
+    padding-left: 15%
+    padding-top: 7%

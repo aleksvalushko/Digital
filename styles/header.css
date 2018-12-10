@@ -1,0 +1,115 @@
+@font-face {
+  font-family: "Lato";
+  src: url("../fonts/Lato-Heavy.ttf");
+  font-weight: 900;
+  font-style: normal; }
+@font-face {
+  font-family: "Lato";
+  src: url(../fonts/Lato-Bold.ttf);
+  font-weight: 700;
+  font-style: normal; }
+@font-face {
+  font-family: Bernadette;
+  src: url(../fonts/bernadette.ttf); }
+@font-face {
+  font-family: "Lato";
+  src: url(../fonts/Lato-Light.ttf);
+  font-weight: 300;
+  font-style: normal; }
+@font-face {
+  font-family: "Belgrad Bold";
+  src: url(../fonts/Belgrad.ttf); }
+@font-face {
+  font-family: "Berlin Sans FB Demi";
+  src: url(../fonts/BRLNSDB.ttf); }
+@font-face {
+  font-family: "Lato Italic";
+  src: url(../fonts/Lato-Italic.ttf); }
+@font-face {
+  font-family: "Lato Medium";
+  src: url(../fonts/Lato-Medium.ttf); }
+@font-face {
+  font-family: "Lato Black";
+  src: url(../fonts/Lato-Black.ttf); }
+@font-face {
+  font-family: "Myriad Pro Cond";
+  src: url(../fonts/Myriad-Pro-Cond.ttf); }
+body {
+  margin: 0;
+  padding: 0; }
+
+header {
+  background-image: url(../images/header-bg.jpg);
+  border: 1px solid transparent;
+  border-radius: 0 0 50% 50%/0 0 10% 10%;
+  height: 50vw;
+  padding: 1.25% 3.125% 0; }
+
+.header-menu {
+  display: flex;
+  padding-bottom: 2%; }
+  .header-menu__logo {
+    font-family: "Lato";
+    font-weight: 900;
+    font-size: 4.5vw;
+    color: #fff; }
+    .header-menu__logo span {
+      color: #fba419; }
+  .header-menu__toggle {
+    display: none; }
+  .header-menu__navigation {
+    text-align: right;
+    width: 100%; }
+  .header-menu__list {
+    display: initial; }
+    .header-menu__list li {
+      list-style-type: none;
+      display: inline-block;
+      padding: 0 1.0625%; }
+      .header-menu__list li a {
+        font-family: Lato;
+        font-weight: 700;
+        color: #fff;
+        font-size: 1.1vw;
+        text-decoration: none; }
+
+.header-text {
+  text-align: center;
+  padding: 0 20.625%; }
+  .header-text__headline-h1 {
+    font-family: Bernadette;
+    color: #fff;
+    font-size: 7.2vw;
+    margin-bottom: 0; }
+  .header-text__headline-h3 {
+    font-family: "Lato";
+    font-weight: 700;
+    color: #fff;
+    font-size: 2.7vw;
+    margin-top: 6%;
+    margin-bottom: 5%; }
+  .header-text__paragraf {
+    text-align: center;
+    padding: 0 5.5%;
+    font-family: "Lato";
+    font-weight: 300;
+    color: #fff;
+    font-size: 1.15vw;
+    margin-bottom: 5%; }
+
+.header-button {
+  width: 100%;
+  text-align: center; }
+  .header-button button {
+    background: #fff;
+    border: none;
+    font-family: "Lato Bold";
+    font-size: 1.13vw;
+    border-radius: 25px;
+    padding: 0.8% 1.5%;
+    cursor: pointer;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.3);
+    margin-top: 1.5%;
+    margin-bottom: 20.4%; }
+
+/*# sourceMappingURL=header.css.map */

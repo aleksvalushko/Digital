@@ -1,0 +1,70 @@
+@import "variables"
+
+body
+  margin: 0
+  padding: 0
+
+header
+  background-image:  url(../images/header-bg.jpg)
+  border: 1px solid transparent
+  border-radius: 0 0 50% 50% / 0 0 10% 10%
+  height: 50vw
+  padding: 1.25% 3.125% 0
+
+.header-menu
+  display: flex
+  padding-bottom: 2%
+  &__logo
+    font-family: "Lato"
+    font-weight: 900
+    font-size: 4.5vw
+    color: $white
+    span
+      color: #fba419
+  &__toggle
+    display: none
+  &__navigation
+    text-align: right
+    width: 100%
+  &__list
+    display: initial
+    li
+      list-style-type: none
+      display: inline-block
+      padding: 0 1.0625%
+      a
+        font-family: Lato
+        font-weight: 700
+        color: $white
+        font-size: 1.1vw
+        text-decoration: none
+.header-text
+  text-align: center
+  padding: 0 20.625%
+  &__headline-h1
+    font-family: Bernadette
+    color: $white
+    font-size: 7.2vw
+    margin-bottom: 0
+  &__headline-h3
+    font-family: "Lato"
+    font-weight: 700
+    color: $white
+    font-size: 2.7vw
+    margin-top: 6%
+    margin-bottom: 5%
+  &__paragraf
+    text-align: center
+    padding: 0 5.5%
+    font-family: "Lato"
+    font-weight: 300
+    color: $white
+    font-size: 1.15vw
+    margin-bottom: 5%
+.header-button
+  width: 100%
+  text-align: center
+  button
+    @include white-button
+    margin-top: 1.5%
+    margin-bottom: 20.4%

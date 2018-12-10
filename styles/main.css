@@ -1,0 +1,1124 @@
+@import url(reset.css);
+@font-face {
+  font-family: Lato;
+  src: url("../fonts/Lato-Heavy.ttf");
+  font-weight: 900;
+  font-style: normal; }
+@font-face {
+  font-family: Lato;
+  src: url(../fonts/Lato-Bold.ttf);
+  font-weight: 700;
+  font-style: normal; }
+@font-face {
+  font-family: Bernadette;
+  src: url(../fonts/bernadette.ttf); }
+@font-face {
+  font-family: Lato;
+  src: url(../fonts/Lato-Light.ttf);
+  font-weight: 300;
+  font-style: normal; }
+@font-face {
+  font-family: "Belgrad Bold";
+  src: url(../fonts/Belgrad.ttf); }
+@font-face {
+  font-family: "Berlin Sans FB Demi";
+  src: url(../fonts/BRLNSDB.ttf); }
+@font-face {
+  font-family: "Lato Italic";
+  src: url(../fonts/Lato-Italic.ttf); }
+@font-face {
+  font-family: "Lato Medium";
+  src: url(../fonts/Lato-Medium.ttf); }
+@font-face {
+  font-family: "Myriad Pro Cond";
+  src: url(../fonts/Myriad-Pro-Cond.ttf); }
+body {
+  margin: 0;
+  padding: 0; }
+
+header {
+  background-image: url(../images/header-bg.jpg);
+  border: 1px solid transparent;
+  border-radius: 0 0 50% 50%/0 0 10% 10%;
+  height: 50vw;
+  padding: 1.25% 3.125% 0; }
+
+.header-menu {
+  display: flex;
+  padding-bottom: 2%; }
+  .header-menu__logo {
+    font-family: "Lato";
+    font-weight: 900;
+    font-size: 4.5vw;
+    color: #fff; }
+    .header-menu__logo span {
+      color: #fba419; }
+  .header-menu__toggle {
+    display: none; }
+  .header-menu__navigation {
+    text-align: right;
+    width: 100%; }
+  .header-menu__list {
+    display: initial; }
+    .header-menu__list li {
+      list-style-type: none;
+      display: inline-block;
+      padding: 0 1.0625%; }
+      .header-menu__list li a {
+        font-family: Lato;
+        font-weight: 700;
+        color: #fff;
+        font-size: 1.1vw;
+        text-decoration: none; }
+
+.header-text {
+  text-align: center;
+  padding: 0 20.625%; }
+  .header-text__headline-h1 {
+    font-family: Bernadette;
+    color: #fff;
+    font-size: 7.2vw;
+    margin-bottom: 0; }
+  .header-text__headline-h3 {
+    font-family: "Lato";
+    font-weight: 700;
+    color: #fff;
+    font-size: 2.7vw;
+    margin-top: 6%;
+    margin-bottom: 5%; }
+  .header-text__paragraf {
+    text-align: center;
+    padding: 0 5.5%;
+    font-family: "Lato";
+    font-weight: 300;
+    color: #fff;
+    font-size: 1.15vw;
+    margin-bottom: 5%; }
+
+.header-button {
+  width: 100%;
+  text-align: center; }
+  .header-button button {
+    background: #fff;
+    border: none;
+    font-family: Lato;
+    font-weight: 700;
+    font-size: 1.13vw;
+    border-radius: 25px;
+    padding: 0.8% 1.5%;
+    cursor: pointer;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.3);
+    margin-top: 1.5%;
+    margin-bottom: 20.4%; }
+
+@font-face {
+  font-family: Lato;
+  src: url("../fonts/Lato-Heavy.ttf");
+  font-weight: 900;
+  font-style: normal; }
+@font-face {
+  font-family: Lato;
+  src: url(../fonts/Lato-Bold.ttf);
+  font-weight: 700;
+  font-style: normal; }
+@font-face {
+  font-family: Bernadette;
+  src: url(../fonts/bernadette.ttf); }
+@font-face {
+  font-family: Lato;
+  src: url(../fonts/Lato-Light.ttf);
+  font-weight: 300;
+  font-style: normal; }
+@font-face {
+  font-family: "Belgrad Bold";
+  src: url(../fonts/Belgrad.ttf); }
+@font-face {
+  font-family: "Berlin Sans FB Demi";
+  src: url(../fonts/BRLNSDB.ttf); }
+@font-face {
+  font-family: "Lato Italic";
+  src: url(../fonts/Lato-Italic.ttf); }
+@font-face {
+  font-family: "Lato Medium";
+  src: url(../fonts/Lato-Medium.ttf); }
+@font-face {
+  font-family: "Myriad Pro Cond";
+  src: url(../fonts/Myriad-Pro-Cond.ttf); }
+.header-photos {
+  display: grid;
+  grid-template-columns: 16% 22% 1% 22% 1% 22% 16%;
+  justify-items: center;
+  grid-gap: 0.1%;
+  position: absolute;
+  top: 38.5vw; }
+  .header-photos__image-1 {
+    grid-column: 2/3;
+    justify-self: right; }
+    .header-photos__image-1 img {
+      max-width: 100%;
+      border-radius: 3.5%; }
+  .header-photos__image-2 {
+    grid-column: 4/5; }
+    .header-photos__image-2 img {
+      max-width: 100%;
+      border-radius: 3.5%; }
+  .header-photos__image-3 {
+    grid-column: 6/7;
+    justify-self: left; }
+    .header-photos__image-3 img {
+      max-width: 100%;
+      border-radius: 3.5%; }
+  .header-photos__headline-h3 {
+    font-family: "Lato Bold";
+    font-size: 1.8vw;
+    margin-top: 4%;
+    margin-bottom: 6%; }
+  .header-photos__paragraf {
+    font-family: "Lato Light";
+    font-size: 1.2vw;
+    padding: 0 11%;
+    text-align: center;
+    margin-bottom: 6%; }
+  .header-photos__images {
+    border: 1px solid transparent;
+    max-width: 100%;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    border-radius: 5px; }
+  .header-photos__button {
+    position: relative;
+    background: linear-gradient(90deg, #dc803d, #415299);
+    color: #fff;
+    border: none;
+    font-family: Lato;
+    font-weight: 700;
+    font-size: 1.15vw;
+    border-radius: 25px;
+    padding: 2% 3%;
+    cursor: pointer;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.3);
+    top: 1.1vw; }
+
+@font-face {
+  font-family: Lato;
+  src: url("../fonts/Lato-Heavy.ttf");
+  font-weight: 900;
+  font-style: normal; }
+@font-face {
+  font-family: Lato;
+  src: url(../fonts/Lato-Bold.ttf);
+  font-weight: 700;
+  font-style: normal; }
+@font-face {
+  font-family: Bernadette;
+  src: url(../fonts/bernadette.ttf); }
+@font-face {
+  font-family: Lato;
+  src: url(../fonts/Lato-Light.ttf);
+  font-weight: 300;
+  font-style: normal; }
+@font-face {
+  font-family: "Belgrad Bold";
+  src: url(../fonts/Belgrad.ttf); }
+@font-face {
+  font-family: "Berlin Sans FB Demi";
+  src: url(../fonts/BRLNSDB.ttf); }
+@font-face {
+  font-family: "Lato Italic";
+  src: url(../fonts/Lato-Italic.ttf); }
+@font-face {
+  font-family: "Lato Medium";
+  src: url(../fonts/Lato-Medium.ttf); }
+@font-face {
+  font-family: "Myriad Pro Cond";
+  src: url(../fonts/Myriad-Pro-Cond.ttf); }
+.about {
+  display: grid;
+  grid-template-columns: 32.5% 35% 32.5%;
+  margin: 20% 16% 4%;
+  height: 40vw; }
+  .about__description {
+    padding-top: 15%; }
+  .about__headline-h1-1 {
+    font-family: Bernadette;
+    font-size: 3vw;
+    padding-bottom: 8%; }
+  .about__paragraf-1 {
+    line-height: 1.3;
+    font-family: "Lato Light";
+    font-size: 1.3vw; }
+    .about__paragraf-1 span {
+      font-weight: bold; }
+  .about button {
+    position: relative;
+    background: linear-gradient(90deg, #dc803d, #415299);
+    color: #fff;
+    border: none;
+    font-family: Lato;
+    font-weight: 700;
+    font-size: 1.15vw;
+    border-radius: 25px;
+    padding: 2% 3%;
+    cursor: pointer;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.3);
+    top: 1.15vw;
+    margin-top: 5%; }
+  .about__letter {
+    font-size: 40vw;
+    font-family: "Belgrad Bold";
+    background: url(../images/a-image.jpg);
+    background-size: cover; }
+  .about__headline-h1-2 {
+    color: #000;
+    background: #fff;
+    mix-blend-mode: lighten;
+    text-align: right;
+    text-shadow: black; }
+    .about__headline-h1-2 span {
+      position: relative;
+      right: 16vw;
+      top: 4vw;
+      color: #000;
+      font-family: "Berlin Sans FB Demi";
+      font-size: 17vw;
+      vertical-align: top; }
+  .about__quote {
+    padding-top: 30%; }
+  .about__paragraf-2 {
+    font-family: "Lato Italic";
+    font-size: 1.4vw;
+    line-height: 1.5;
+    font-weight: bold; }
+  .about__headline-h1-3 {
+    font-family: Bernadette;
+    font-size: 3.5vw;
+    padding-left: 15%;
+    padding-top: 7%; }
+
+@font-face {
+  font-family: Lato;
+  src: url("../fonts/Lato-Heavy.ttf");
+  font-weight: 900;
+  font-style: normal; }
+@font-face {
+  font-family: Lato;
+  src: url(../fonts/Lato-Bold.ttf);
+  font-weight: 700;
+  font-style: normal; }
+@font-face {
+  font-family: Bernadette;
+  src: url(../fonts/bernadette.ttf); }
+@font-face {
+  font-family: Lato;
+  src: url(../fonts/Lato-Light.ttf);
+  font-weight: 300;
+  font-style: normal; }
+@font-face {
+  font-family: "Belgrad Bold";
+  src: url(../fonts/Belgrad.ttf); }
+@font-face {
+  font-family: "Berlin Sans FB Demi";
+  src: url(../fonts/BRLNSDB.ttf); }
+@font-face {
+  font-family: "Lato Italic";
+  src: url(../fonts/Lato-Italic.ttf); }
+@font-face {
+  font-family: "Lato Medium";
+  src: url(../fonts/Lato-Medium.ttf); }
+@font-face {
+  font-family: "Myriad Pro Cond";
+  src: url(../fonts/Myriad-Pro-Cond.ttf); }
+.portfolio {
+  display: grid;
+  grid-template: 28% 21% 3% 21% 28%/20% 29% 2% 29% 20%;
+  margin: 0 16% 5%;
+  height: 43vw; }
+  .portfolio__first {
+    grid-column: 1/3;
+    grid-row: 1/3;
+    max-width: 100%; }
+    .portfolio__first img {
+      max-width: 100%; }
+  .portfolio__second {
+    grid-column: 4/6;
+    grid-row: 1/3;
+    max-width: 100%; }
+    .portfolio__second img {
+      max-width: 100%; }
+  .portfolio__description {
+    grid-column: 2/5;
+    grid-row: 2/5;
+    background: #fff;
+    border-radius: 10px;
+    text-align: center;
+    padding: 3% 2%; }
+  .portfolio__headline-h1 {
+    font-family: Bernadette;
+    font-size: 3vw;
+    padding-bottom: 3%; }
+  .portfolio__paragraf {
+    font-family: "Lato Italic";
+    font-size: 1.3vw;
+    font-weight: bold;
+    line-height: 1.3; }
+  .portfolio button {
+    position: relative;
+    background: linear-gradient(90deg, #dc803d, #415299);
+    color: #fff;
+    border: none;
+    font-family: Lato;
+    font-weight: 700;
+    font-size: 1.15vw;
+    border-radius: 25px;
+    padding: 2% 3%;
+    cursor: pointer;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.3);
+    margin-top: 3%; }
+  .portfolio__third {
+    grid-column: 1/3;
+    grid-row: 4/6;
+    max-width: 100%; }
+    .portfolio__third img {
+      max-width: 100%; }
+  .portfolio__fourth {
+    grid-column: 4/6;
+    grid-row: 4/6;
+    max-width: 100%; }
+    .portfolio__fourth img {
+      max-width: 100%; }
+
+@font-face {
+  font-family: Lato;
+  src: url("../fonts/Lato-Heavy.ttf");
+  font-weight: 900;
+  font-style: normal; }
+@font-face {
+  font-family: Lato;
+  src: url(../fonts/Lato-Bold.ttf);
+  font-weight: 700;
+  font-style: normal; }
+@font-face {
+  font-family: Bernadette;
+  src: url(../fonts/bernadette.ttf); }
+@font-face {
+  font-family: Lato;
+  src: url(../fonts/Lato-Light.ttf);
+  font-weight: 300;
+  font-style: normal; }
+@font-face {
+  font-family: "Belgrad Bold";
+  src: url(../fonts/Belgrad.ttf); }
+@font-face {
+  font-family: "Berlin Sans FB Demi";
+  src: url(../fonts/BRLNSDB.ttf); }
+@font-face {
+  font-family: "Lato Italic";
+  src: url(../fonts/Lato-Italic.ttf); }
+@font-face {
+  font-family: "Lato Medium";
+  src: url(../fonts/Lato-Medium.ttf); }
+@font-face {
+  font-family: "Myriad Pro Cond";
+  src: url(../fonts/Myriad-Pro-Cond.ttf); }
+.service {
+  display: grid;
+  grid-template: 15% 70% 15%/50% 7% 13% 30%;
+  margin-bottom: 5%;
+  background: #f4f4f4;
+  height: 36vw; }
+  .service__description {
+    grid-column: 1/3;
+    grid-row: 1/4;
+    padding: 6% 22% 0 27%; }
+  .service__headline-h1 {
+    font-family: Bernadette;
+    font-size: 3.2vw;
+    padding-bottom: 2%; }
+  .service__paragraf {
+    font-family: "Lato Light";
+    font-size: 1.3vw;
+    line-height: 1.3; }
+    .service__paragraf span {
+      font-weight: bold; }
+  .service button {
+    position: relative;
+    background: linear-gradient(90deg, #dc803d, #415299);
+    color: #fff;
+    border: none;
+    font-family: Lato;
+    font-weight: 700;
+    font-size: 1.15vw;
+    border-radius: 25px;
+    padding: 2% 3%;
+    cursor: pointer;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.3);
+    margin-top: 5%; }
+  .service__items {
+    grid-column: 2/4;
+    grid-row: 2/3;
+    background: linear-gradient(120deg, #dc803d, #415299);
+    border-radius: 10px;
+    display: grid;
+    grid-template: 1fr 1fr 1fr/50% 50%;
+    text-align: center;
+    padding: 5%; }
+  .service__first {
+    border-right: 1px dotted rgba(255, 255, 255, 0.3);
+    border-bottom: 1px dotted rgba(255, 255, 255, 0.3);
+    background: url(../images/icon-1.png) no-repeat 50% 30%;
+    background-size: 35%; }
+  .service__second {
+    border-bottom: 1px dotted rgba(255, 255, 255, 0.3);
+    background: url(../images/icon-2.png) no-repeat 50% 30%;
+    background-size: 40%; }
+  .service__third {
+    border-right: 1px dotted rgba(255, 255, 255, 0.3);
+    border-bottom: 1px dotted rgba(255, 255, 255, 0.3);
+    background: url(../images/icon-3.png) no-repeat 50% 20%;
+    background-size: 40%; }
+  .service__fourth {
+    border-bottom: 1px dotted rgba(255, 255, 255, 0.3);
+    background: url(../images/icon-1.png) no-repeat 50% 30%;
+    background-size: 35%; }
+  .service__fifth {
+    border-right: 1px dotted rgba(255, 255, 255, 0.3);
+    background: url(../images/icon-4.png) no-repeat 50% 30%;
+    background-size: 35%; }
+  .service__sixth {
+    background: url(../images/icon-5.png) no-repeat 50% 20%;
+    background-size: 35%; }
+  .service__image {
+    max-width: 100%;
+    grid-column: 3/5;
+    grid-row: 1/4; }
+    .service__image img {
+      max-width: 100%; }
+  .service__headline-h6 {
+    font-family: "Lato Heavy";
+    font-size: 1.2vw;
+    color: #fff;
+    padding: 55% 10% 0; }
+
+@font-face {
+  font-family: Lato;
+  src: url("../fonts/Lato-Heavy.ttf");
+  font-weight: 900;
+  font-style: normal; }
+@font-face {
+  font-family: Lato;
+  src: url(../fonts/Lato-Bold.ttf);
+  font-weight: 700;
+  font-style: normal; }
+@font-face {
+  font-family: Bernadette;
+  src: url(../fonts/bernadette.ttf); }
+@font-face {
+  font-family: Lato;
+  src: url(../fonts/Lato-Light.ttf);
+  font-weight: 300;
+  font-style: normal; }
+@font-face {
+  font-family: "Belgrad Bold";
+  src: url(../fonts/Belgrad.ttf); }
+@font-face {
+  font-family: "Berlin Sans FB Demi";
+  src: url(../fonts/BRLNSDB.ttf); }
+@font-face {
+  font-family: "Lato Italic";
+  src: url(../fonts/Lato-Italic.ttf); }
+@font-face {
+  font-family: "Lato Medium";
+  src: url(../fonts/Lato-Medium.ttf); }
+@font-face {
+  font-family: "Myriad Pro Cond";
+  src: url(../fonts/Myriad-Pro-Cond.ttf); }
+.team {
+  margin: 0 10% 3%;
+  text-align: center;
+  background: linear-gradient(to bottom, #fff 55%, #f4f4f4 45%);
+  padding: 0 5%;
+  height: 35vw; }
+  .team__headline-h1 {
+    font-family: Bernadette;
+    font-size: 3.5vw;
+    padding-bottom: 2.5%; }
+  .team__paragraf {
+    font-family: "Lato Light";
+    font-size: 1.2vw;
+    padding-bottom: 5%; }
+  .team__members {
+    display: grid;
+    grid-template-columns: 19% 19% 19% 19% 19%;
+    grid-column-gap: 1%;
+    justify-content: space-between;
+    padding-bottom: 5%;
+    margin-bottom: 5%; }
+  .team__member {
+    max-width: 100%; }
+    .team__member img {
+      max-width: 100%;
+      margin-bottom: 15%; }
+  .team__headline-h3 {
+    font-family: "Lato Medium";
+    font-size: 1.5vw; }
+  .team__headline-h4 {
+    font-family: "Lato Light";
+    font-size: 1.2vw;
+    color: #b7b7b7; }
+
+@font-face {
+  font-family: Lato;
+  src: url("../fonts/Lato-Heavy.ttf");
+  font-weight: 900;
+  font-style: normal; }
+@font-face {
+  font-family: Lato;
+  src: url(../fonts/Lato-Bold.ttf);
+  font-weight: 700;
+  font-style: normal; }
+@font-face {
+  font-family: Bernadette;
+  src: url(../fonts/bernadette.ttf); }
+@font-face {
+  font-family: Lato;
+  src: url(../fonts/Lato-Light.ttf);
+  font-weight: 300;
+  font-style: normal; }
+@font-face {
+  font-family: "Belgrad Bold";
+  src: url(../fonts/Belgrad.ttf); }
+@font-face {
+  font-family: "Berlin Sans FB Demi";
+  src: url(../fonts/BRLNSDB.ttf); }
+@font-face {
+  font-family: "Lato Italic";
+  src: url(../fonts/Lato-Italic.ttf); }
+@font-face {
+  font-family: "Lato Medium";
+  src: url(../fonts/Lato-Medium.ttf); }
+@font-face {
+  font-family: "Myriad Pro Cond";
+  src: url(../fonts/Myriad-Pro-Cond.ttf); }
+.progress {
+  display: grid;
+  grid-template-columns: 45% 25% 30%;
+  margin-left: 16%;
+  margin-bottom: 7%;
+  height: 35vw; }
+  .progress__skills {
+    padding: 5% 10%; }
+  .progress__headline-h1 {
+    font-family: Bernadette;
+    font-size: 4vw;
+    color: #333332; }
+  .progress__headline-h4 {
+    font-family: "Lato Bold";
+    font-size: 1.5vw;
+    color: #515151;
+    padding-bottom: 4%; }
+  .progress__paragraf-1 {
+    font-family: "Lato Light";
+    font-size: 1.2vw;
+    line-height: 1.5;
+    padding-bottom: 15%; }
+  .progress__headline-h5 {
+    font-family: "Lato Medium";
+    font-size: 1.6vw;
+    color: #333332; }
+  .progress__scale {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline; }
+  .progress__scale-1 {
+    flex: 7;
+    order: 1;
+    background: linear-gradient(90deg, #dc803d, #415299);
+    border: 1px solid transparent;
+    border-radius: 15px;
+    height: 0.5vw; }
+  .progress__value {
+    flex: 1;
+    order: 2;
+    text-align: right;
+    color: #4c4c4b;
+    font-family: "Lato Black";
+    font-size: 1.5vw; }
+  .progress__scale-2 {
+    background: #dadada;
+    border: 1px solid #dadada;
+    border-radius: 15px;
+    height: 0.5vw; }
+  .progress__photo {
+    max-width: 100%;
+    background: linear-gradient(120deg, #dc803d, #415299); }
+    .progress__photo img {
+      max-width: 100%; }
+  .progress__social-networks {
+    padding: 5% 10%;
+    background: linear-gradient(120deg, #dc803d, #415299); }
+  .progress__paragraf-2 {
+    font-family: "Lato Light";
+    font-size: 1.2vw;
+    color: #fff;
+    line-height: 1.5; }
+    .progress__paragraf-2 span {
+      font-family: "Lato Medium"; }
+  .progress__social-network {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 5% 10%; }
+    .progress__social-network .shape {
+      background-color: #fff;
+      width: 4vw;
+      height: 4vw;
+      border-radius: 4vw;
+      margin-top: 17.7vw; }
+  .progress__facebook {
+    background: url(../images/facebook.png) no-repeat 50% 50%;
+    background-size: 40%; }
+  .progress__google {
+    background: url(../images/google.png) no-repeat 50% 50%;
+    background-size: 80%; }
+  .progress__vk {
+    background: url(../images/vk.png) no-repeat 50% 50%;
+    background-size: 80%; }
+
+@font-face {
+  font-family: Lato;
+  src: url("../fonts/Lato-Heavy.ttf");
+  font-weight: 900;
+  font-style: normal; }
+@font-face {
+  font-family: Lato;
+  src: url(../fonts/Lato-Bold.ttf);
+  font-weight: 700;
+  font-style: normal; }
+@font-face {
+  font-family: Bernadette;
+  src: url(../fonts/bernadette.ttf); }
+@font-face {
+  font-family: Lato;
+  src: url(../fonts/Lato-Light.ttf);
+  font-weight: 300;
+  font-style: normal; }
+@font-face {
+  font-family: "Belgrad Bold";
+  src: url(../fonts/Belgrad.ttf); }
+@font-face {
+  font-family: "Berlin Sans FB Demi";
+  src: url(../fonts/BRLNSDB.ttf); }
+@font-face {
+  font-family: "Lato Italic";
+  src: url(../fonts/Lato-Italic.ttf); }
+@font-face {
+  font-family: "Lato Medium";
+  src: url(../fonts/Lato-Medium.ttf); }
+@font-face {
+  font-family: "Myriad Pro Cond";
+  src: url(../fonts/Myriad-Pro-Cond.ttf); }
+.prices {
+  display: grid;
+  grid-template: 15% 70% 15%/15% 22% 1% 22% 40%;
+  margin-bottom: 5%;
+  height: 40vw; }
+  .prices__gradient {
+    grid-column: 1/3;
+    grid-row: 1/4;
+    background: linear-gradient(120deg, #dc803d, #415299);
+    border: 1px solid transparent;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.3); }
+  .prices__text {
+    grid-column: 4/6;
+    grid-row: 1/4;
+    background: #f3f3f3;
+    padding: 15% 7% 15% 45%; }
+  .prices__headline-h2-1 {
+    font-family: Bernadette;
+    font-size: 3vw;
+    color: #333332;
+    padding-bottom: 5%; }
+  .prices__paragraf-1 {
+    font-family: "Lato Bold";
+    font-size: 1.2vw;
+    line-height: 1.3;
+    padding-bottom: 5%;
+    color: #040404; }
+  .prices__paragraf-2 {
+    font-family: "Lato Light";
+    font-size: 1.2vw;
+    line-height: 1.3;
+    color: #7c7c7c; }
+  .prices__price {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    background: #fff;
+    text-align: center;
+    padding: 10% 5%; }
+  .prices__headline-h2-2 {
+    font-family: Bernadette;
+    font-size: 3vw;
+    color: #333332;
+    padding-bottom: 3%; }
+  .prices__headline-h4-1 {
+    font-family: "Lato Bold";
+    font-size: 1.3vw;
+    color: #333332;
+    padding-bottom: 10%; }
+  .prices__headline-h1-1 {
+    font-family: "Myriad Pro Cond";
+    font-size: 5vw;
+    background: linear-gradient(120deg, #dc803d, #415299);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-bottom: 10%; }
+    .prices__headline-h1-1 span {
+      font-size: 3.5vw; }
+  .prices__headline-h3 {
+    font-family: "Lato Bold";
+    font-size: 1.4vw;
+    color: #333332;
+    padding-bottom: 5%; }
+  .prices__paragraf-3 {
+    font-family: "Lato Light";
+    font-size: 1.2vw;
+    color: #131313;
+    line-height: 1.3;
+    padding-bottom: 10%; }
+  .prices__sentence {
+    grid-column: 3/5;
+    grid-row: 2/3;
+    background: linear-gradient(120deg, #dc803d, #415299);
+    text-align: center;
+    color: #fff; }
+  .prices__headline-h1-2 {
+    font-family: "Myriad Pro Cond";
+    font-size: 5vw;
+    padding-top: 20%; }
+  .prices__headline-h4-2 {
+    font-family: "Lato Bold";
+    font-size: 1.3vw;
+    padding-bottom: 5%; }
+  .prices ul {
+    line-height: 1.8;
+    font-family: "Lato Medium";
+    font-size: 1.3vw; }
+    .prices ul li {
+      list-style-type: none; }
+    .prices ul li:before {
+      content: "+";
+      padding-right: 2%; }
+  .prices button {
+    background: #fff;
+    border: none;
+    font-family: Lato;
+    font-weight: 700;
+    font-size: 1.13vw;
+    border-radius: 25px;
+    padding: 0.8% 1.5%;
+    cursor: pointer;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.3);
+    padding: 3% 5%;
+    margin: 5%; }
+
+@font-face {
+  font-family: Lato;
+  src: url("../fonts/Lato-Heavy.ttf");
+  font-weight: 900;
+  font-style: normal; }
+@font-face {
+  font-family: Lato;
+  src: url(../fonts/Lato-Bold.ttf);
+  font-weight: 700;
+  font-style: normal; }
+@font-face {
+  font-family: Bernadette;
+  src: url(../fonts/bernadette.ttf); }
+@font-face {
+  font-family: Lato;
+  src: url(../fonts/Lato-Light.ttf);
+  font-weight: 300;
+  font-style: normal; }
+@font-face {
+  font-family: "Belgrad Bold";
+  src: url(../fonts/Belgrad.ttf); }
+@font-face {
+  font-family: "Berlin Sans FB Demi";
+  src: url(../fonts/BRLNSDB.ttf); }
+@font-face {
+  font-family: "Lato Italic";
+  src: url(../fonts/Lato-Italic.ttf); }
+@font-face {
+  font-family: "Lato Medium";
+  src: url(../fonts/Lato-Medium.ttf); }
+@font-face {
+  font-family: "Myriad Pro Cond";
+  src: url(../fonts/Myriad-Pro-Cond.ttf); }
+.main-form {
+  background: linear-gradient(90deg, #dc803d, #415299);
+  text-align: center;
+  padding: 5% 26%; }
+  .main-form__information {
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: 48% 48%;
+    grid-column-gap: 4%;
+    justify-content: space-around;
+    margin-bottom: 3%; }
+  .main-form__data {
+    margin-bottom: 3%; }
+    .main-form__data input {
+      width: 100%;
+      border: 1px solid #fc9e20;
+      border-radius: 3px;
+      background: #f4f4f4;
+      height: 2vw; }
+  .main-form__message textarea {
+    width: 100%;
+    border: 1px solid #fc9e20;
+    border-radius: 3px;
+    background: #f4f4f4;
+    height: 8vw;
+    margin-bottom: 3%; }
+  .main-form__submit input {
+    position: relative;
+    background: linear-gradient(90deg, #dc803d, #415299);
+    color: #fff;
+    border: none;
+    font-family: Lato;
+    font-weight: 700;
+    font-size: 1.15vw;
+    border-radius: 25px;
+    padding: 2% 3%;
+    cursor: pointer;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.3);
+    padding: 1% 5%; }
+
+@font-face {
+  font-family: Lato;
+  src: url("../fonts/Lato-Heavy.ttf");
+  font-weight: 900;
+  font-style: normal; }
+@font-face {
+  font-family: Lato;
+  src: url(../fonts/Lato-Bold.ttf);
+  font-weight: 700;
+  font-style: normal; }
+@font-face {
+  font-family: Bernadette;
+  src: url(../fonts/bernadette.ttf); }
+@font-face {
+  font-family: Lato;
+  src: url(../fonts/Lato-Light.ttf);
+  font-weight: 300;
+  font-style: normal; }
+@font-face {
+  font-family: "Belgrad Bold";
+  src: url(../fonts/Belgrad.ttf); }
+@font-face {
+  font-family: "Berlin Sans FB Demi";
+  src: url(../fonts/BRLNSDB.ttf); }
+@font-face {
+  font-family: "Lato Italic";
+  src: url(../fonts/Lato-Italic.ttf); }
+@font-face {
+  font-family: "Lato Medium";
+  src: url(../fonts/Lato-Medium.ttf); }
+@font-face {
+  font-family: "Myriad Pro Cond";
+  src: url(../fonts/Myriad-Pro-Cond.ttf); }
+.social-networks {
+  margin-top: 3%;
+  margin-bottom: 5%; }
+  .social-networks__bg {
+    background: url(../images/footer-bg.jpg);
+    padding: 10% 16%;
+    text-align: center; }
+  .social-networks__headline-h1 {
+    font-family: Bernadette;
+    color: #fff;
+    font-size: 4vw;
+    margin-bottom: 7%; }
+  .social-networks__icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; }
+    .social-networks__icons .shape {
+      width: 4vw;
+      height: 4vw;
+      border-radius: 4vw;
+      border: 3px solid #fff;
+      margin: 0 2%; }
+  .social-networks__facebook {
+    background: url(../images/facebook-white.png) no-repeat 50% 50%;
+    background-size: 40%; }
+  .social-networks__google {
+    background: url(../images/google-white.png) no-repeat 50% 50%;
+    background-size: 80%; }
+  .social-networks__vk {
+    background: url(../images/vk-white.png) no-repeat 50% 50%;
+    background-size: 80%; }
+  .social-networks__youtube {
+    background: url(../images/youtoobe-white.png) no-repeat 50% 50%;
+    background-size: 60%; }
+  .social-networks__linkedin {
+    background: url(../images/in-white.png) no-repeat 50% 50%;
+    background-size: 60%; }
+  .social-networks__digg {
+    background: url(../images/digg-white.png) no-repeat 50% 50%;
+    background-size: 80%; }
+  .social-networks__keyboard {
+    background: url(../images/z-white.png) no-repeat 50% 50%;
+    background-size: 40%; }
+
+@font-face {
+  font-family: Lato;
+  src: url("../fonts/Lato-Heavy.ttf");
+  font-weight: 900;
+  font-style: normal; }
+@font-face {
+  font-family: Lato;
+  src: url(../fonts/Lato-Bold.ttf);
+  font-weight: 700;
+  font-style: normal; }
+@font-face {
+  font-family: Bernadette;
+  src: url(../fonts/bernadette.ttf); }
+@font-face {
+  font-family: Lato;
+  src: url(../fonts/Lato-Light.ttf);
+  font-weight: 300;
+  font-style: normal; }
+@font-face {
+  font-family: "Belgrad Bold";
+  src: url(../fonts/Belgrad.ttf); }
+@font-face {
+  font-family: "Berlin Sans FB Demi";
+  src: url(../fonts/BRLNSDB.ttf); }
+@font-face {
+  font-family: "Lato Italic";
+  src: url(../fonts/Lato-Italic.ttf); }
+@font-face {
+  font-family: "Lato Medium";
+  src: url(../fonts/Lato-Medium.ttf); }
+@font-face {
+  font-family: "Myriad Pro Cond";
+  src: url(../fonts/Myriad-Pro-Cond.ttf); }
+footer {
+  margin: 0 16%; }
+
+.footer {
+  display: grid;
+  grid-template: 70% 30%/10% 20% 5% 10% 20% 5% 10% 20%;
+  grid-row-gap: 10%;
+  height: 10vw; }
+  .footer__mail {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    background: url(../images/icon-email.png) no-repeat 60% 0;
+    background-size: 70%; }
+  .footer__text-1 {
+    grid-column: 2/3;
+    grid-row: 1/2; }
+  .footer__headline-h3 {
+    font-family: "Lato Bold";
+    font-size: 1.2vw;
+    color: #494949;
+    margin-bottom: 3%; }
+  .footer__paragraf-1 {
+    font-family: "Lato Light";
+    font-size: 1.16vw;
+    color: #494949; }
+  .footer__phone {
+    grid-column: 4/5;
+    grid-row: 1/2;
+    background: url(../images/icon-phone.png) no-repeat 80% 0;
+    background-size: 45%; }
+  .footer__address {
+    grid-column: 7/8;
+    grid-row: 1/2;
+    background: url(../images/icon-address.png) no-repeat 80% 0;
+    background-size: 65%; }
+  .footer__icons {
+    text-align: right;
+    padding-right: 10%;
+    max-width: 100%; }
+    .footer__icons img {
+      max-width: 80%; }
+  .footer__text-2 {
+    grid-column: 5/6;
+    grid-row: 1/2; }
+  .footer__text-3 {
+    grid-column: 8/9;
+    grid-row: 1/2; }
+  .footer__paragraf-2 {
+    grid-column: 1/5;
+    grid-row: 2/3;
+    text-align: right;
+    padding-right: 5%;
+    font-family: "Lato Light";
+    font-size: 1.16vw;
+    color: #494949; }
+  .footer__paragraf-3 {
+    grid-column: 5/9;
+    grid-row: 2/3;
+    padding-left: 5%;
+    font-family: "Lato Light";
+    font-size: 1.16vw;
+    color: #494949; }
+    .footer__paragraf-3 span {
+      font-family: Bernadette;
+      font-size: 1.2vw; }
+
+@font-face {
+  font-family: Lato;
+  src: url("../fonts/Lato-Heavy.ttf");
+  font-weight: 900;
+  font-style: normal; }
+@font-face {
+  font-family: Lato;
+  src: url(../fonts/Lato-Bold.ttf);
+  font-weight: 700;
+  font-style: normal; }
+@font-face {
+  font-family: Bernadette;
+  src: url(../fonts/bernadette.ttf); }
+@font-face {
+  font-family: Lato;
+  src: url(../fonts/Lato-Light.ttf);
+  font-weight: 300;
+  font-style: normal; }
+@font-face {
+  font-family: "Belgrad Bold";
+  src: url(../fonts/Belgrad.ttf); }
+@font-face {
+  font-family: "Berlin Sans FB Demi";
+  src: url(../fonts/BRLNSDB.ttf); }
+@font-face {
+  font-family: "Lato Italic";
+  src: url(../fonts/Lato-Italic.ttf); }
+@font-face {
+  font-family: "Lato Medium";
+  src: url(../fonts/Lato-Medium.ttf); }
+@font-face {
+  font-family: "Myriad Pro Cond";
+  src: url(../fonts/Myriad-Pro-Cond.ttf); }
+@media screen and (max-width: 375px) {
+  .header-menu {
+    width: 100%;
+    display: flex;
+    justify-content: space-around; }
+    .header-menu__list {
+      display: none; }
+    .header-menu__toggle {
+      display: initial;
+      text-align: center;
+      cursor: pointer;
+      font-family: Bernadette;
+      color: #fff;
+      border: 1px solid #000;
+      font-size: 2vw;
+      margin-top: 2%; } }
+
+/*# sourceMappingURL=main.css.map */

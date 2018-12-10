@@ -1,0 +1,66 @@
+@import "variables"
+
+footer
+  margin: 0 16%
+.footer
+  display: grid
+  grid-template: 70% 30% / 10% 20% 5% 10% 20% 5% 10% 20%
+  grid-row-gap: 10%
+  height: 10vw
+  &__mail
+    grid-column: 1/2
+    grid-row: 1/2
+    background: url(../images/icon-email.png) no-repeat 60% 0
+    background-size: 70%
+  &__text-1
+    grid-column: 2/3
+    grid-row: 1/2
+  &__headline-h3
+    font-family: "Lato Bold"
+    font-size: 1.2vw
+    color: #494949
+    margin-bottom: 3%
+  &__paragraf-1
+    font-family: "Lato Light"
+    font-size: 1.16vw
+    color: #494949
+  &__phone
+    grid-column: 4/5
+    grid-row: 1/2
+    background: url(../images/icon-phone.png) no-repeat 80% 0
+    background-size: 45%
+  &__address
+    grid-column: 7/8
+    grid-row: 1/2
+    background: url(../images/icon-address.png) no-repeat 80% 0
+    background-size: 65%
+  &__icons
+    text-align: right
+    padding-right: 10%
+    max-width: 100%
+    img
+      max-width: 80%
+  &__text-2
+    grid-column: 5/6
+    grid-row: 1/2
+  &__text-3
+    grid-column: 8/9
+    grid-row: 1/2
+  &__paragraf-2
+    grid-column: 1/5
+    grid-row: 2/3
+    text-align: right
+    padding-right: 5%
+    font-family: "Lato Light"
+    font-size: 1.16vw
+    color: #494949
+  &__paragraf-3
+    grid-column: 5/9
+    grid-row: 2/3
+    padding-left: 5%
+    font-family: "Lato Light"
+    font-size: 1.16vw
+    color: #494949
+    span
+      font-family: Bernadette
+      font-size: 1.2vw
