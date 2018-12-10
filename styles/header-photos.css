@@ -1,33 +1,3 @@
-@font-face {
-  font-family: "Lato Heavy";
-  src: url(../fonts/Lato-Heavy.ttf); }
-@font-face {
-  font-family: "Lato Bold";
-  src: url(../fonts/Lato-Bold.ttf); }
-@font-face {
-  font-family: Bernadette;
-  src: url(../fonts/bernadette.ttf); }
-@font-face {
-  font-family: "Lato Light";
-  src: url(../fonts/Lato-Light.ttf); }
-@font-face {
-  font-family: "Belgrad Bold";
-  src: url(../fonts/Belgrad.ttf); }
-@font-face {
-  font-family: "Berlin Sans FB Demi";
-  src: url(../fonts/BRLNSDB.ttf); }
-@font-face {
-  font-family: "Lato Italic";
-  src: url(../fonts/Lato-Italic.ttf); }
-@font-face {
-  font-family: "Lato Medium";
-  src: url(../fonts/Lato-Medium.ttf); }
-@font-face {
-  font-family: "Lato Black";
-  src: url(../fonts/Lato-Black.ttf); }
-@font-face {
-  font-family: "Myriad Pro Cond";
-  src: url(../fonts/Myriad-Pro-Cond.ttf); }
 .header-photos {
   display: grid;
   grid-template-columns: 16% 22% 1% 22% 1% 22% 16%;
@@ -53,12 +23,14 @@
       max-width: 100%;
       border-radius: 3.5%; }
   .header-photos__headline-h3 {
-    font-family: "Lato Bold";
+    font-family: Lato;
+    font-weight: 700;
     font-size: 1.8vw;
     margin-top: 4%;
     margin-bottom: 6%; }
   .header-photos__paragraf {
-    font-family: "Lato Light";
+    font-family: Lato;
+    font-weight: 200;
     font-size: 1.2vw;
     padding: 0 11%;
     text-align: center;
@@ -74,11 +46,13 @@
     background: linear-gradient(90deg, #dc803d, #415299);
     color: #fff;
     border: none;
-    font-family: "Lato Bold";
+    font-family: Lato;
+    font-weight: 700;
     font-size: 1.15vw;
     border-radius: 25px;
     padding: 2% 3%;
     cursor: pointer;
-    box-shadow: 0 0 40px rgba(0, 0, 0, 0.3); }
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.3);
+    top: 1.1vw; }
 
 /*# sourceMappingURL=header-photos.css.map */
