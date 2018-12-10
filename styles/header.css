@@ -40,13 +40,13 @@ header {
 .header-text {
   text-align: center;
   padding: 0 20.625%; }
-  .header-text__headline-h1 {
+  .header-text__headline-1 {
     font-family: Bernadette;
-    font-weight: 700;
+    font-weight: 900;
     color: #fff;
     font-size: 7.2vw;
     margin-bottom: 0; }
-  .header-text__headline-h3 {
+  .header-text__headline-2 {
     font-family: Lato;
     font-weight: 700;
     color: #fff;

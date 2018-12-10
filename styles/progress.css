@@ -6,12 +6,12 @@
   height: 35vw; }
   .progress__skills {
     padding: 5% 10%; }
-  .progress__headline-h1 {
+  .progress__headline-1 {
     font-family: Bernadette;
     font-weight: 900;
     font-size: 4vw;
     color: #333332; }
-  .progress__headline-h4 {
+  .progress__headline-2 {
     font-family: Lato;
     font-weight: 700;
     font-size: 1.5vw;
@@ -23,7 +23,7 @@
     font-size: 1.1vw;
     line-height: 1.5;
     padding-bottom: 15%; }
-  .progress__headline-h5 {
+  .progress__headline-3 {
     font-family: Lato;
     font-weight: 400;
     font-size: 1.4vw;

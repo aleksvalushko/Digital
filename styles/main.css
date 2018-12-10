@@ -82,13 +82,13 @@ header {
 .header-text {
   text-align: center;
   padding: 0 20.625%; }
-  .header-text__headline-h1 {
+  .header-text__headline-1 {
     font-family: Bernadette;
     font-weight: 900;
     color: #fff;
     font-size: 7.2vw;
     margin-bottom: 0; }
-  .header-text__headline-h3 {
+  .header-text__headline-2 {
     font-family: Lato;
     font-weight: 700;
     color: #fff;
@@ -144,7 +144,7 @@ header {
     .header-photos__image-3 img {
       max-width: 100%;
       border-radius: 3.5%; }
-  .header-photos__headline-h3 {
+  .header-photos__headline {
     font-family: Lato;
     font-weight: 700;
     font-size: 1.8vw;
@@ -184,7 +184,7 @@ header {
   height: 40vw; }
   .about__description {
     padding-top: 15%; }
-  .about__headline-h1-1 {
+  .about__headline-1 {
     font-family: Bernadette;
     font-size: 3vw;
     padding-bottom: 8%; }
@@ -215,13 +215,13 @@ header {
     font-weight: 700;
     background: url(../images/a-image.jpg);
     background-size: cover; }
-  .about__headline-h1-2 {
+  .about__headline-2 {
     color: #000;
     background: #fff;
     mix-blend-mode: lighten;
     text-align: right;
     text-shadow: black; }
-    .about__headline-h1-2 span {
+    .about__headline-2 span {
       position: relative;
       right: 16vw;
       top: 4vw;
@@ -238,7 +238,7 @@ header {
     font-size: 1.4vw;
     line-height: 1.5;
     font-weight: bold; }
-  .about__headline-h1-3 {
+  .about__headline-3 {
     font-family: Bernadette;
     font-weight: 700;
     font-size: 3.5vw;
@@ -269,7 +269,7 @@ header {
     border-radius: 10px;
     text-align: center;
     padding: 3% 2%; }
-  .portfolio__headline-h1 {
+  .portfolio__headline {
     font-family: Bernadette;
     font-weight: 900;
     font-size: 3vw;
@@ -317,7 +317,7 @@ header {
     grid-column: 1/3;
     grid-row: 1/4;
     padding: 6% 22% 0 27%; }
-  .service__headline-h1 {
+  .service__headline-1 {
     font-family: Bernadette;
     font-weight: 900;
     font-size: 3.2vw;
@@ -382,7 +382,7 @@ header {
     grid-row: 1/4; }
     .service__image img {
       max-width: 100%; }
-  .service__headline-h6 {
+  .service__headline-2 {
     font-family: Lato;
     font-weight: 900;
     font-size: 1.1vw;
@@ -395,7 +395,7 @@ header {
   background: linear-gradient(to bottom, #fff 55%, #f4f4f4 45%);
   padding: 0 5%;
   height: 35vw; }
-  .team__headline-h1 {
+  .team__headline-1 {
     font-family: Bernadette;
     font-weight: 900;
     font-size: 3.5vw;
@@ -417,11 +417,11 @@ header {
     .team__member img {
       max-width: 100%;
       margin-bottom: 15%; }
-  .team__headline-h3 {
+  .team__headline-2 {
     font-family: Lato;
     font-weight: 400;
     font-size: 1.5vw; }
-  .team__headline-h4 {
+  .team__headline-3 {
     font-family: Lato;
     font-weight: 200;
     font-size: 1.2vw;
@@ -435,12 +435,12 @@ header {
   height: 35vw; }
   .progress__skills {
     padding: 5% 10%; }
-  .progress__headline-h1 {
+  .progress__headline-1 {
     font-family: Bernadette;
     font-weight: 900;
     font-size: 4vw;
     color: #333332; }
-  .progress__headline-h4 {
+  .progress__headline-2 {
     font-family: Lato;
     font-weight: 700;
     font-size: 1.5vw;
@@ -452,7 +452,7 @@ header {
     font-size: 1.1vw;
     line-height: 1.5;
     padding-bottom: 15%; }
-  .progress__headline-h5 {
+  .progress__headline-3 {
     font-family: Lato;
     font-weight: 400;
     font-size: 1.4vw;
@@ -536,7 +536,7 @@ header {
     grid-row: 1/4;
     background: #f3f3f3;
     padding: 15% 7% 15% 45%; }
-  .prices__headline-h2-1 {
+  .prices__headline-1 {
     font-family: Bernadette;
     font-weight: 900;
     font-size: 3vw;
@@ -561,28 +561,28 @@ header {
     background: #fff;
     text-align: center;
     padding: 10% 5%; }
-  .prices__headline-h2-2 {
+  .prices__headline-2 {
     font-family: Bernadette;
     font-weight: 900;
     font-size: 3vw;
     color: #333332;
     padding-bottom: 3%; }
-  .prices__headline-h4-1 {
+  .prices__headline-3 {
     font-family: Lato;
     font-weight: 700;
     font-size: 1.3vw;
     color: #333332;
     padding-bottom: 10%; }
-  .prices__headline-h1-1 {
+  .prices__headline-4 {
     font-family: "Myriad Pro Cond";
     font-size: 5vw;
     background: linear-gradient(120deg, #dc803d, #415299);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     padding-bottom: 10%; }
-    .prices__headline-h1-1 span {
+    .prices__headline-4 span {
       font-size: 3.5vw; }
-  .prices__headline-h3 {
+  .prices__headline-5 {
     font-family: Lato;
     font-weight: 700;
     font-size: 1.4vw;
@@ -601,11 +601,11 @@ header {
     background: linear-gradient(120deg, #dc803d, #415299);
     text-align: center;
     color: #fff; }
-  .prices__headline-h1-2 {
+  .prices__headline-6 {
     font-family: "Myriad Pro Cond";
     font-size: 5vw;
     padding-top: 20%; }
-  .prices__headline-h4-2 {
+  .prices__headline-7 {
     font-family: Lato;
     font-weight: 700;
     font-size: 1.3vw;
@@ -680,7 +680,7 @@ header {
     background: url(../images/footer-bg.jpg);
     padding: 10% 16%;
     text-align: center; }
-  .social-networks__headline-h1 {
+  .social-networks__headline {
     font-family: Bernadette;
     font-weight: 900;
     color: #fff;
@@ -734,7 +734,7 @@ footer {
   .footer__text-1 {
     grid-column: 2/3;
     grid-row: 1/2; }
-  .footer__headline-h3 {
+  .footer__headline {
     font-family: Lato;
     font-weight: 700;
     font-size: 1.2vw;

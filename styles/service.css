@@ -8,7 +8,7 @@
     grid-column: 1/3;
     grid-row: 1/4;
     padding: 6% 22% 0 27%; }
-  .service__headline-h1 {
+  .service__headline-1 {
     font-family: Bernadette;
     font-weight: 900;
     font-size: 3.2vw;
@@ -73,7 +73,7 @@
     grid-row: 1/4; }
     .service__image img {
       max-width: 100%; }
-  .service__headline-h6 {
+  .service__headline-2 {
     font-family: Lato;
     font-weight: 900;
     font-size: 1.1vw;

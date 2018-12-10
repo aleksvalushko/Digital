@@ -5,7 +5,7 @@
   height: 40vw; }
   .about__description {
     padding-top: 15%; }
-  .about__headline-h1-1 {
+  .about__headline-1 {
     font-family: Bernadette;
     font-size: 3vw;
     padding-bottom: 8%; }
@@ -36,13 +36,13 @@
     font-weight: 700;
     background: url(../images/a-image.jpg);
     background-size: cover; }
-  .about__headline-h1-2 {
+  .about__headline-2 {
     color: #000;
     background: #fff;
     mix-blend-mode: lighten;
     text-align: right;
     text-shadow: black; }
-    .about__headline-h1-2 span {
+    .about__headline-2 span {
       position: relative;
       right: 16vw;
       top: 4vw;
@@ -59,7 +59,7 @@
     font-size: 1.4vw;
     line-height: 1.5;
     font-weight: bold; }
-  .about__headline-h1-3 {
+  .about__headline-3 {
     font-family: Bernadette;
     font-weight: 700;
     font-size: 3.5vw;

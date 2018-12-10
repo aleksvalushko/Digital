@@ -4,7 +4,7 @@
   background: linear-gradient(to bottom, #fff 55%, #f4f4f4 45%);
   padding: 0 5%;
   height: 35vw; }
-  .team__headline-h1 {
+  .team__headline-1 {
     font-family: Bernadette;
     font-weight: 900;
     font-size: 3.5vw;
@@ -26,11 +26,11 @@
     .team__member img {
       max-width: 100%;
       margin-bottom: 15%; }
-  .team__headline-h3 {
+  .team__headline-2 {
     font-family: Lato;
     font-weight: 400;
     font-size: 1.5vw; }
-  .team__headline-h4 {
+  .team__headline-3 {
     font-family: Lato;
     font-weight: 200;
     font-size: 1.2vw;
