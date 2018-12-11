@@ -1,48 +1,33 @@
-@font-face {
-  font-family: "Lato Heavy";
-  src: url(../fonts/Lato-Heavy.ttf); }
-@font-face {
-  font-family: "Lato Bold";
-  src: url(../fonts/Lato-Bold.ttf); }
-@font-face {
-  font-family: Bernadette;
-  src: url(../fonts/bernadette.ttf); }
-@font-face {
-  font-family: "Lato Light";
-  src: url(../fonts/Lato-Light.ttf); }
-@font-face {
-  font-family: "Belgrad Bold";
-  src: url(../fonts/Belgrad.ttf); }
-@font-face {
-  font-family: "Berlin Sans FB Demi";
-  src: url(../fonts/BRLNSDB.ttf); }
-@font-face {
-  font-family: "Lato Italic";
-  src: url(../fonts/Lato-Italic.ttf); }
-@font-face {
-  font-family: "Lato Medium";
-  src: url(../fonts/Lato-Medium.ttf); }
-@font-face {
-  font-family: "Lato Black";
-  src: url(../fonts/Lato-Black.ttf); }
-@font-face {
-  font-family: "Myriad Pro Cond";
-  src: url(../fonts/Myriad-Pro-Cond.ttf); }
 @media screen and (max-width: 375px) {
   .header-menu {
     width: 100%;
     display: flex;
     justify-content: space-around; }
+    .header-menu__navigation {
+      width: 0; }
     .header-menu__list {
       display: none; }
+    .header-menu__list-mobile {
+      display: block; }
+    .header-menu__logo {
+      font-family: Lato;
+      font-weight: 900;
+      font-size: 15vw;
+      color: #fff; }
+      .header-menu__logo span {
+        color: #fba419; }
     .header-menu__toggle {
       display: initial;
       text-align: center;
       cursor: pointer;
       font-family: Bernadette;
+      font-weight: 900;
       color: #fff;
-      border: 1px solid #000;
-      font-size: 2vw;
-      margin-top: 2%; } }
+      border: 1px solid transparent;
+      background: #c3c3c3;
+      border-radius: 5%;
+      font-size: 10vw;
+      margin-top: 2%;
+      padding: 1.5% 4%; } }
 
 /*# sourceMappingURL=media375.css.map */
